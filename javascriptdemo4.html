@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    Enter a name :<input type="text" id="text1" /> <br />
+    <input type="button" value="Add" onclick="add()" />
+    <input type="button" value="Remove" onclick="remove()" />
+    <input type="button" value="sort" onclick="sort()" />
+    <div id="d1">
+    </div>
+    <script>
+
+        var names = [];//an empty array
+        function add() {
+
+            names.push(document.getElementById("text1").value);
+            display();
+        }
+        function remove() {
+            for (var i = 0; i < names.length; i++) {
+                if (names[i] == document.getElementById("text1").value) {
+
+
+                    names.splice(i, 1);
+                    break;
+                }
+            }
+            display();
+        }
+
+        function sort() {
+            
+        }
+
+        function alert() {
+            for (var i = 0; i < names.length; i++)
+            {
+
+            }
+        }
+        
+
+        function display() {
+            var data = "<ol>";
+            for (var i = 0; i < names.length; i++) {
+                data += "<li>" + names[i] + "</li>";
+            }
+            data += "</ol>";
+            console.log(data);
+            document.getElementById("d1").innerHTML = data;
+        }
+
+    </script>
+</body>
+</html>
+
+
+
+
+   
+
+
+
+
+
+
+

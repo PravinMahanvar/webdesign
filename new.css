@@ -1,0 +1,25 @@
+
+/* this css is for tablet*/
+
+@media screen and (min-device-width:768px) and (max-device-width:1000px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+img {
+    height: 200px;
+    width: 100px;
+}
+/* this css is for moblie*/
+
+
+@media screen and (min-device-width:320) and (max-device-width:676px) {
+
+    h1 {
+        font-size: 30px;
+    }
+}
+img{
+    height:200px;
+    width:100px;
+}

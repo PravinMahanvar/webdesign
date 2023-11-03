@@ -1,0 +1,23 @@
+
+.custom {
+    box-shadow: 5px 2px 2px lightgray;
+    border: lightgray solid;
+    color:black
+}
+#contact{
+    position:relative;
+    top:30px;
+}
+#s1 h3{
+    position :relative;
+    top:40px;
+}
+#footer{
+    background-color:white;
+    height:200px;
+    position:relative;
+    top:30px;
+}
+#footer ul li{
+    list-style:none;
+}

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    Enter the number :<input type="text" id="text1" /> <br />
+    Enter the number :<input type="text" id="text2" /> <br />
+    result:<input type="text" id="text3" /> <br />
+    <input type="button" value="Addition" onclick="addition()" />
+    <input type="button" value="Substraction" onclick="substraction()" />
+    <input type="button" value="multifly" onclick="multifly()" />
+    <input type="button" value="Division" onclick="division()" />
+
+
+    <script>
+        function addition() {
+            var a = document.getElementById("text1").value;
+            var b = document.getElementById("text2").value;
+
+            var c = parseInt(a) + parseInt(b);
+
+            document.getElementById("text3").value = c;
+
+
+        }
+
+        function substraction() {
+            var a = document.getElementById("text1").value;
+            var b = document.getElementById("text2").value;
+
+            var c = parseInt(a) - parseInt(b);
+
+            document.getElementById("text3").value = c;
+
+        }
+        function multifly() {
+            var a = document.getElementById("text1").value;
+            var b = document.getElementById("text2").value;
+
+            var c = parseInt(a) * parseInt(b);
+
+            document.getElementById("text3").value = c;
+
+        }
+        function division() {
+            var a = document.getElementById("text1").value;
+            var b = document.getElementById("text2").value;
+
+            var c = parseInt(a) / parseInt(b);
+
+            document.getElementById("text3").value = c;
+
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

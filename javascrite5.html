@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="d1"></div>
+
+    <script>
+        //a=10
+        //b=20
+        //myfunction=display
+        function add(x,y,display) {
+            var c = x+y;
+
+
+            display(c);
+        }
+
+
+        function display(result) {
+            document.getElementById("d1").innerHTML = result;
+        }
+
+
+    add(10, 20, display); //call back function
+    </Script>
+
+</body>
+</html>

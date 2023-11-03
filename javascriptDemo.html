@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        let age = 20;  // var age:number=20
+        var name = "pravin";   // var name:string =" Suraj"
+        var city = "pune";
+        let per = 78.98;
+        var isActive = true;
+
+        document.write('my name is' + Name + ' My age is ' + age);
+        if (age >= 15) {
+            document.write('valid user')
+        }
+        else {
+            document.write('not valid user')
+
+        }
+
+        for (let i = 1; i <= 10; i++) {
+            document.write('<br/>' + i)
+        }
+    </script>
+
+    <script>
+        // function
+        function Addition() {
+            var a = 10, b = 20;
+            var c = a + b;
+            document.write('addition is ' + c);
+        }
+
+        // call to a function
+        Addition();
+
+        // function - with paramter no return value
+
+        function substraction(a, b) {
+            var c = a - b;
+            document.write('sub is' + c);
+        }
+        // call
+
+        substraction(20, 13);
+
+        function multiply(a, b) {
+            var c = a * b;
+            return c;
+        }
+        var result = multiply(90, 20);
+        document.write('<br/> multiplication is' + result);
+
+
+            // modal diaolong boxex in java script
+
+
+
+    </script>
+
+    <script>
+        var name = "pravin";
+        // alert ('my name is' + name);
+
+        var result = confirm('do you want to make a payment ?')
+
+        if (result = true) {
+            document.write('you click ok, we will process payment')
+        }
+
+        else {
+            document.write('you canclled the payment')
+        }
+
+    </script>
+   
+
+   <script>
+       var names = ["pravin", "sachin", "sonu", "pramod"];
+       for (let i = 0; i < names.length; i++)
+       {
+           document.write("<br/>" + names[i]);
+       }
+
+       var number = [10, 20, 30, 40];
+       for (let i = 0; i < number.length; i++)
+       {
+           documnet.write("<br/>" + number[i]);
+       }
+   </script>
+
+</body >
+</html >

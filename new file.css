@@ -1,0 +1,105 @@
+/For desktop/
+.carousel-inner {
+    height: 450px;
+    width: 50px;
+}
+
+#s1 {
+    position: relative;
+    top: 30px;
+    bottom: 20px;
+}
+
+    #s1 h3 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #4180BF;
+    }
+
+/For Mobile/
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+    h1
+
+{
+    font-size: 16px;
+}
+
+img {
+    height: 50px;
+    width: 150px;
+}
+
+/For Tab/
+@media screen and (min-device-width:768px) and (max-device-width:1000px) {
+    h1
+
+{
+    font-size: 30px;
+}
+
+img {
+    height: 200px;
+    width: 300px
+}
+
+.card{
+    margin-bottom:20px;
+
+}
+
+
+#footer {
+    background-color: black;
+    height: 260px;
+    position: relative;
+    top: 30px;
+}
+
+
+    #footer h5 {
+        position: relative;
+        top: 10px;
+        margin-left: 30px;
+        color: darkgray;
+    }
+
+    #footer ul li {
+        list-style: none;
+    }
+
+        #footer ul li a {
+            position: relative;
+            top: 10px;
+            color: white !important;
+            text-decoration: none;
+            text-align: left;
+        }
+
+    #footer p {
+        color: white;
+    }
+
+    #footer hr {
+        color: white;
+    }
+
+    #footer .fa {
+        color: white;
+    }
+
+h5{
+    color:paleturquoise;
+}
+#footer p{
+    color:bisque;
+
+}
+#Register {
+    margin: 50px 20px 30px 30px;
+}
+
+.custom {
+    box-shadow: 5px 2px 2px lightgray;
+    border: lightgray solid;
+}
+
+

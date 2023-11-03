@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+
+
+        var names = ["pravin", "sachin", "sonu", "pramod"];
+        names.push("rutuja");
+        names.unshift("suraj"); // add at first
+
+        //pop will remove the last element
+        names.pop();
+
+        //shift will remove the first element
+        names.shift();
+        //add the element/ replace elements
+
+        names.splice(2, 1, "rutuja", "manoj");
+
+        names.sort();
+
+        names.reverse();
+        // slice to create new array from existing
+
+        var newemp = names.slice(1, 5);
+
+        for (let i = 0; i < names.length; i++) {
+            document.write("<br/>" + names[i]);
+        }
+
+        document.write('<br/>newemp list');
+        {
+            document.write("<br/>" + newemp[i]);
+        }
+        
+
+
+    </script>
+</body>
+</html>
